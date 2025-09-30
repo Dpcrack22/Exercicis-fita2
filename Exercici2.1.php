@@ -16,7 +16,7 @@ Si el usuari/contrasenya que entri l'usuari al formulari coincideix amb algun de
 Ha de ser segur: la contrasenya no s'ha de veure ni quan l'escrivim al formulari ni quan enviem les dades.
 Quina creus que ha de ser la resposta si el login és incorrecte? Li informem si l'error està al nom d'usuari o a la password? -->
 
-    <form method="POST" action="Exercici2.1.php">
+    <form method="POST" action="/Exemple2.1.php">
         <label for="username">Usuari:</label><br>
         <input type="text" id="username" name="username"><br>
         <label for="password">Contrasenya:</label><br>
@@ -26,9 +26,9 @@ Quina creus que ha de ser la resposta si el login és incorrecte? Li informem si
 
     <?php
         $users = array(
-            "user1" => "password1",
-            "user2" => "password2",
-            "admin" => "adminpass"
+            "Dpcrack22" => "P@ssw0rd",
+            "Pepe" => "ElPepe33.",
+            "Administrador" => "@dm1nitr@t0r"
         );
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
