@@ -13,6 +13,5 @@
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form>
-
 </body>
 </html>
